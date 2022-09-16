@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(81, 82, 114);
+    color: white;
+    margin: 0;
+    height: 150vh;
+    padding: 0 10% 5%;
+    font-family: 'Segoe UI';
+}
+
+#calculadora{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    border: solid lightgreen 5px;
+    border-radius: 20px;
+}
+#tasa{
+    font-size: 2em;
+    font-weight: bold;
+}
+span{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+input{
+    height: 75px;
+    width: 300px;
+    font-size: 2em;
+}
+#btnCalcular{
+    background-color: green;
+    color: white;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: solid greenyellow 3px;
+    border-radius: 15px;
+    padding: 20px 35px;
+}
+#btnCalcular:hover{
+    cursor: pointer;
+}
